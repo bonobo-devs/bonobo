@@ -25,5 +25,5 @@ All of Bonobo's files besides `wordmark.png` and the files in `icons/` are licen
 
 `wordmark.png` as well as all of the files in `icons/` are provided under the CC BY-ND 4.0 license:
 ~~~
-Bonobo branding  © 2026 by @unconstructable13 is licensed under CC BY-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/.
+Bonobo branding © 2026 by @unconstructable13 is licensed under CC BY-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nd/4.0/.
 ~~~
