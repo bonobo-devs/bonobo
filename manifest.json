@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Bonobo",
   "version": "0.1.0",
-  "description": "Bonobo is a better userscript manager for Chromium..",
+  "description": "Bonobo is a better userscript manager for Chromium.",
   "permissions": [],
 
   "icons": {
