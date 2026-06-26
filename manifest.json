@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "description": "Bonobo is a better userscript manager for Chromium.",
   "permissions": [
-    "userScripts"
+    "userScripts",
+    "storage",
+    "unlimitedStorage"
   ],
   "host_permissions": [
     "<all_urls>"
