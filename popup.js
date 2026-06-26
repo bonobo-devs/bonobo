@@ -5,7 +5,8 @@ async function register_bonobo(file) {
     chrome.userScripts.register([{
         id: bonobo_object["id"],
         matches: bonobo_object["match"],
-        js: [{ code: bonobo_object["code"] }]
+        js: [{ code: bonobo_object["code"] }],
+        world: "MAIN"
     }]);
 
     alert(bonobo_object["id"]);
