@@ -16,7 +16,7 @@ async function register_bonobo (file, is_registered) {
   }
 
   actionText.innerText =
-    'Userscript installed at timestamp ' + Math.floor(Date.now() / 1000) + '!'
+    `Userscript "${bonobo_object["id"]}" installed at timestamp ${Math.floor(Date.now() / 1000)}!`
 }
 
 const fileSelector = document.getElementById('file-selector')
@@ -34,7 +34,7 @@ fileSelector.addEventListener('change', async event => {
 removeButton.addEventListener('click', async () => {
   try {
     await Promise.all([chrome.userScripts.unregister({ ids: [removeInput.value] }), chrome.storage.local.remove(removeInput.value)]);
-    actionText.innerText = 'Userscript removed at timestamp ' + Math.floor(Date.now() / 1000) + '!'
+    actionText.innerText = `Userscript "${removeInput.value}" removed at timestamp ${Math.floor(Date.now() / 1000)}!`
   } catch (error) {
     actionText.innerText = error;
   }
